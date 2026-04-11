@@ -1450,12 +1450,6 @@ if selected_page_id == "overview":
             fig = px.pie(sd, names="status", values="count", hole=0.68,
                          color="status", color_discrete_sequence=_THEME_SCALE)
             fig.update_traces(
-                hovertemplate=(
-                    f"<span style='color:{_HOVER_ACCENT}; font-weight:600;'>Status</span><br>"
-                    f"<b>%{{label}}</b><br>"
-                    f"<span style='color:{_HOVER_ACCENT}; font-weight:600;'>Count</span><br>"
-                    f"<b>%{{value:,}}</b><extra></extra>"
-                ),
                 textinfo="none",
                 sort=False
             )
