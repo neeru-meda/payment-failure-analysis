@@ -1318,6 +1318,27 @@ _HOVER_THEME = go.layout.Template(
 pio.templates["pg_hover"] = _HOVER_THEME
 px.defaults.template = "plotly_white+pg_hover"
 
+import plotly.io as pio
+
+pio.templates["custom_theme"] = go.layout.Template(
+    layout=go.Layout(
+        font=dict(color="#1f2937"),  # DARK TEXT
+        xaxis=dict(
+            title_font=dict(color="#1f2937"),
+            tickfont=dict(color="#374151")
+        ),
+        yaxis=dict(
+            title_font=dict(color="#1f2937"),
+            tickfont=dict(color="#374151")
+        ),
+        legend=dict(
+            font=dict(color="#1f2937")
+        )
+    )
+)
+
+px.defaults.template = "plotly_white+pg_hover+custom_theme"
+
 px.defaults.color_discrete_sequence = _THEME_SCALE
 px.defaults.color_continuous_scale = _THEME_SCALE
 _sp = '<div style="height:16px;"></div>'
