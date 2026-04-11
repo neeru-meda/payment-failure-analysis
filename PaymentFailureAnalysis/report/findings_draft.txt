@@ -1,0 +1,5 @@
+Which channel is least reliable? 
+Which hour is most dangerous? 
+Which bank has slowest recovery?
+
+---to do later

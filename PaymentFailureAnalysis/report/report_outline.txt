@@ -1,0 +1,45 @@
+PROJECT KPIs
+============
+
+1. Transaction Success Rate
+   Definition: Percentage of transactions that complete successfully
+   Formula: (successful transactions / total transactions) * 100
+   Your result: ~76.63%
+
+2. Transaction Failure Incidence Rate
+   Definition: Percentage of transactions that fail
+   Formula: (failed transactions / total transactions) * 100
+   Your result: ~23.37%
+
+3. Peak Failure Window
+   Definition: The time period with highest failure incidence rate
+   Your result: Hours 22, 23, 0, 1 (10pm–1am) — 45.73% failure rate
+
+5. Salary Day Spike Factor
+   Definition: How many times more likely a transaction is to fail on salary dates
+   Your result: 2.25x higher on days 28–31
+
+6. Channel Reliability Index
+   Definition: Reliability score (0–100) for each payment channel
+   Based on: failure rate, resolution time, error severity
+   Your result: RTGS highest, UPI lowest
+
+7. Bank Reliability Score
+   Definition: Reliability score (0–100) for each bank
+   Your result: from reliability_scores.csv
+
+8. High-Risk Transaction Ratio
+   Definition: Percentage of all transactions that fall in high-risk windows
+   Your result: ~25.98% of transactions are high-risk
+
+
+Empirical analysis of 10,000 synthetic transactions reveals that 
+payment failure incidence rates exhibit statistically significant 
+temporal clustering. Transactions initiated during the 10pm–1am 
+core banking system (CBS) maintenance window demonstrate a 2.95x 
+elevation in failure incidence (45.73%) relative to the system 
+baseline (15.52%), while salary credit days (28th–31st of month) 
+produce a 2.25x spike attributed to peak concurrent load on 
+NPCI settlement infrastructure. These findings indicate material 
+SLA compliance risk for banks operating under RBI's mandated 
+99.5% payment availability standard during high-volume windows.

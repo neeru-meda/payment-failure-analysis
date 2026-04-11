@@ -1,0 +1,36 @@
+Group_Type,Group,Total_Transactions,Failed_Transactions,Failure_Rate_%,Error_Diversity,Avg_Severity,Reliability_Score,Rank
+Bank,SBI,2023,461,22.79,10,1.308,69.37,1
+Bank,Kotak,2005,451,22.49,10,1.344,66.23,2
+Bank,ICICI,1961,448,22.85,10,1.348,55.48,3
+Bank,Axis,2030,494,24.33,10,1.283,36.32,4
+Bank,HDFC,1981,483,24.38,10,1.306,27.92,5
+Bank+Channel,HDFC RTGS,196,16,8.16,8,1.125,98.55,1
+Bank+Channel,SBI RTGS,187,20,10.7,8,1.1,95.05,2
+Bank+Channel,ICICI RTGS,224,20,8.93,9,1.1,83.5,3
+Bank+Channel,Kotak RTGS,199,18,9.05,9,1.222,76.21,4
+Bank+Channel,Axis RTGS,204,18,8.82,9,1.389,67.01,5
+Bank+Channel,SBI NEFT,504,76,15.08,10,1.158,53.16,6
+Bank+Channel,Kotak NEFT,477,72,15.09,10,1.347,42.21,7
+Bank+Channel,HDFC NEFT,499,85,17.03,10,1.306,40.8,8
+Bank+Channel,Kotak Card,424,80,18.87,10,1.25,40.45,9
+Bank+Channel,ICICI NEFT,508,92,18.11,10,1.293,39.45,10
+Bank+Channel,ICICI Card,364,67,18.41,10,1.328,36.84,11
+Bank+Channel,Axis NEFT,512,94,18.36,10,1.33,36.82,12
+Bank+Channel,Axis Card,394,82,20.81,10,1.293,34.19,13
+Bank+Channel,SBI Wallet,212,43,20.28,10,1.326,33.31,14
+Bank+Channel,ICICI Wallet,192,45,23.44,10,1.267,30.56,15
+Bank+Channel,HDFC Wallet,180,54,30.0,9,1.315,30.0,16
+Bank+Channel,HDFC Card,402,90,22.39,10,1.356,27.46,17
+Bank+Channel,SBI Card,433,97,22.4,10,1.433,22.99,18
+Bank+Channel,Axis Wallet,208,65,31.25,10,1.246,16.55,19
+Bank+Channel,Kotak Wallet,211,56,26.54,10,1.446,14.17,20
+Bank+Channel,Axis UPI,712,235,33.01,10,1.264,12.08,21
+Bank+Channel,SBI UPI,687,225,32.75,10,1.32,9.35,22
+Bank+Channel,HDFC UPI,704,238,33.81,10,1.298,8.55,23
+Bank+Channel,Kotak UPI,694,225,32.42,10,1.36,7.68,24
+Bank+Channel,ICICI UPI,673,224,33.28,10,1.415,2.83,25
+Channel,,1010,92,9.11,10,1.185,85.0,1
+Channel,,2500,419,16.76,10,1.289,55.34,2
+Channel,,2017,416,20.62,10,1.337,40.96,3
+Channel,,1003,263,26.22,10,1.319,31.63,4
+Channel,,3470,1147,33.05,10,1.33,15.92,5
