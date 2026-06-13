@@ -209,10 +209,4 @@ streamlit run app/streamlit_app.py --server.port 8502
 
 ---
 
-## License
-
-Add your license here before publishing.
-
----
-
 If you like this project, consider giving it a star!
